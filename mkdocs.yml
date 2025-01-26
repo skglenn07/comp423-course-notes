@@ -5,6 +5,12 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+  icon:
+    admonition:
+      note: octicons/tag-16
+      warning: octicons/alert-16
+      question: octicons/question-16
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -12,4 +18,7 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences

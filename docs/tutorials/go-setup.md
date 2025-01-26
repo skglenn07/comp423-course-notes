@@ -31,6 +31,10 @@ cd go-tutorial
 ```
 git init
 ```
+
+!!! note
+    This command creates a new Git Repository (repo). This Git repo will allow you to track versions and changed of your project.
+
 (D) Create a README file:
 ```
 echo "# Go tutorial set up" > README.md
@@ -153,5 +157,8 @@ go build hello.go
 
 This will compile the hello.go file and create a executable binary. 
 
-**build vs run**: The go run command compiles and runs your code, while the go build command compiles dependencies and files to create an executable. 
+??? question
+    **What's the difference between ```build``` and ```run```?**
+    
+    The Go ```run``` command compiles and runs your code, while the Go ```build``` command compiles dependencies and files to create an executable. 
 
