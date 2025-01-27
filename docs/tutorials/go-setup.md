@@ -202,5 +202,21 @@ Hello, COMP423
     * The Go ```run``` command compiles and immediately runs your code without creating a binary file.
     * The Go ```build``` command compiles dependencies and files to create an executable binary which is run independently of the Go source file. 
 
+## Part 4: Committing and Pushing Changes to Github
+
+To document the work you've done following this tutorial, you'll want to push your changes to your Git repository and Github that we initialized and set up at the begininning so you can see the progress you've made and save your changes.
+
+(1) Add and commit your changes: 
+```
+git add .
+git commit -m "Completed Hello, COMP423 Go Tutorial"
+```
+
+(2) Push the changes to GitHub:
+```
+git push origin main
+```
+(3) In your web browser, refresh your GitHub repository to see that the commit you made locally has now been pushed to remote so you can see your progress!
+
 ## Summary
 In this tutorial, you have completed the basic tasks to help you set up a Go dev container using Docker, build a Go project, and understand some simple go commands. Thanks for following along and congratulations on your first Go project!
