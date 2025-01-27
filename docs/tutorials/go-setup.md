@@ -50,9 +50,10 @@ git commit -m "Initial commit with README"
 (1) Log in to your GitHub account and navigate to the Create a New Repository page.
 
 (2) Fill in the details as follows:
-* Repository Name: go-tutorial
-* Description: "Setting up a basic dev container for Go and writing a simple 'Hello COMP423' Program".
-* Visibility: Public
+
+* **Repository Name:** go-tutorial
+* **Description:** "Setting up a basic dev container for Go and writing a simple 'Hello COMP423' Program".
+* **Visibility:** Public
 
 (3) Do not initialize the repository with a README, .gitignore, or license.
 
@@ -108,7 +109,7 @@ A dev container ensures that your development environment is consistent and work
                 "golang.go"
                 ]
             }
-        },
+        }
 }
 
 ```
@@ -121,7 +122,7 @@ A dev container ensures that your development environment is consistent and work
 
 (1) Reopen the project in the container: In VS Code, press **Ctrl+Shift+P** or **Cmd+Shift+P** on Mac and select **Dev Containers: Reopen in Container**. This creates the container, and opens the project inside of the Go environment. 
 
-(2) Once the container is set up, in the terminal in VS Code, verify the Go version installed:
+(2) Once the dev container set up is complete, close the current terminal and open a new one in VS Code. Run this line in the terminal to verify the Go version running in your dev container:
 
 ```
 go version
